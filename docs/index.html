@@ -9,19 +9,58 @@ published_time: 2017-08-10
 section: Humanities
 tag: [""]
 ---
-<section class="container">
-  <section>
-    <h1>Jessa &amp; Ozan</h1>
-    <b>June 30, 2018 in Sinop, Turkey</b>
-    <a href="https://goo.gl/maps/6yeLzFnqFTU2" target="_blank">
-      <img style="max-width:420px;" src="assets/Sinop.png" />
-    </a>
-  </section>
-  <section class="the-trip">
-    <div><b>Before June 27</b> Fly to Istanbul</div>
-    <div><b>June 27</b> Istanbul ✈️ Sinop</div>
-    <div><b>June 28-30</b> 🎉 Sinop 🎉</div>
-    <div><b>July 1</b> Sinop ✈️ Istanbul ✈️ Antalya</div>
-    <div><b>July 2&ndash;5</b> 🏖 Antalya 🏖</div>
-  </section>
-</section>
+<!--svg
+  style="position: absolute; top: 0; right: 0;"
+  class="flags"
+  width="600"
+  height="600"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <clipPath id="USFlagMask">
+      <polygon points="-100,0 330,0 330,20 270,580 270,600 -100,600 -100,0"/>
+    </clipPath>
+
+    <clipPath id="TurkishFlagMask">
+      <polygon
+        points="600,0 300,0 300,20 200,580 200,600 600,600 600,0"
+        pin-right="true"
+      />
+    </clipPath>
+  </defs>
+
+  <image
+    id="TurkishFlag"
+    xlink:href="assets/Turkey-Full.png"
+    x="350" y="0"
+    clip-path="url(#TurkishFlagMask)"
+    width="1620px"
+    height="1080px"
+    pin-right="true"
+    transform="translate(15,0)"
+  />
+  <image
+    id="USFlag"
+    xlink:href="assets/USA-Full.png"
+    x="0" y="0"
+    clip-path="url(#USFlagMask)"
+    width="2051px"
+    height="1080px"
+  />
+</svg-->
+
+<style>
+image, polygon {
+  transition: all .2s ease-out;
+}
+
+image {
+  cursor: pointer;
+}
+
+svg {
+  z-index: 1;
+}
+</style>
+
+<section class="container" id="app"></section>
