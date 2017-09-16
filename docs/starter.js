@@ -10021,173 +10021,166 @@ var App = function (_React$Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'section',
+        'div',
         null,
+        _react2.default.createElement('img', { width: '100%', src: 'assets/oj.jpg' }),
         _react2.default.createElement(
-          'center',
-          null,
+          'section',
+          { className: 'container' },
           _react2.default.createElement(
-            'h1',
+            'section',
             null,
-            'Jessa \u2764\uFE0F Ozan'
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            'We\u2019re getting married! We\u2019ll be celebrating on June 30, 2018 in Sinop, Turkey.\xA0',
             _react2.default.createElement(
-              'a',
-              { href: 'http://jessaandozan.rsvpify.com', target: '_blank' },
-              'Please sign up here to join us.'
+              'center',
+              null,
+              _react2.default.createElement(
+                'h1',
+                null,
+                'Jessa \u2764\uFE0F Ozan'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'We\u2019re getting married! We\u2019ll be celebrating on June 30, 2018 in Sinop, Turkey.\xA0',
+                _react2.default.createElement(
+                  'a',
+                  { href: 'http://jessaandozan.rsvpify.com', target: '_blank' },
+                  'Please sign up here to join us.'
+                )
+              )
+            ),
+            _react2.default.createElement('hr', null),
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Planning Your Trip'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'We\u2019ve provided a suggested itinerary below to help structure your trip. Traveling to Turkey is easy: Istanbul (where you\u2019ll enter and exit Turkey) is a major tourist destination and Ozan will sort out all the logistics of your stay in Sinop. After you ',
+              _react2.default.createElement(
+                'a',
+                { href: 'http://jessaandozan.rsvpify.com', target: '_blank' },
+                'sign up'
+              ),
+              ' we will email you to come up with a specific trip plan and guide you through booking transportation and lodging.'
+            ),
+            _react2.default.createElement('hr', null),
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Suggested Itinerary'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'In order to make the most of your trip, we recommend you plan for at least 12 days, starting off with touristy stuff in Istanbul then attending the wedding in Sinop, followed by a choose-your-own-adventure. Expect to spend about $1,300 for a round trip ticket to Turkey from the U.S. and about $20/day for food, and $20/day for lodging (assuming you\u2019re sharing with at least one other person). A 12-night trip to Turkey should cost somewhere around $2,200 per person (padding included).'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Your first stop in Turkey will be Istanbul. If you\u2019ve never been to Turkey, you must spend some time exploring Istanbul: it\u2019s a 2,500-year-old city with a population of 14 million.'
+            ),
+            _react2.default.createElement(
+              'ul',
+              null,
+              _react2.default.createElement(
+                'li',
+                null,
+                'Saturday, June 23 \u2013 Fly into Istanbul'
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                'Sunday, June 24 \u2013 Explore Beyoglu'
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                'Monday, June 25 \u2013 Explore Sultanahmet & Grand Bazaar'
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                'Tuesday, June 26 \u2013 Explore Kadikoy'
+              )
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Plan to arrive in Sinop on June 27. Istanbul to Sinop is about a day by bus and an hour by plane. Depending on the number of people signing up we may rent a bus to simplify logistics of getting people in and out of Sinop. Sinop has a history as long as Istanbul\u2019s but is a much smaller city with a population of 40 thousand (who are among the ',
+              _react2.default.createElement(
+                'a',
+                { href: 'http://www.bbc.com/travel/story/20170810-the-turkish-city-that-discovered-the-key-to-happiness', target: '_blank' },
+                'happiest in Turkey'
+              ),
+              ').'
+            ),
+            _react2.default.createElement(
+              'ul',
+              null,
+              _react2.default.createElement(
+                'li',
+                null,
+                'Wednesday, June 27 \u2013 Bus ride to Sinop'
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                'Thursday, June 28 \u2013 Explore Sinop'
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                'Friday, June 29 \u2013 Visit Ozan\u2019s grandparents\u2019 village'
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                'Saturday, June 30 \u2013 Celebrate Ozan and Jessa\u2019s Wedding'
+              ),
+              _react2.default.createElement(
+                'li',
+                null,
+                'Sunday, July 1 \u2013 Bus ride to Istanbul'
+              )
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'After the wedding you have many options: Greece is right next door, as is the rest of Europe, Russia, and the Middle East. Within Turkey there are several tourist-friendly cities: ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://www.lonelyplanet.com/turkey/aegean-coast/izmir', target: '_blank' },
+                'Izmir'
+              ),
+              ', ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://www.lonelyplanet.com/turkey/aegean-coast/bodrum', target: '_blank' },
+                'Bodrum'
+              ),
+              ', and ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://www.lonelyplanet.com/turkey/mediterranean-coast/antalya', target: '_blank' },
+                'Antalya'
+              ),
+              '. ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://www.lonelyplanet.com/turkey/aegean-coast/pamukkale', target: '_blank' },
+                'Pamukkale'
+              ),
+              ' and ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://www.lonelyplanet.com/turkey/cappadocia-kapadokya', target: '_blank' },
+                'Cappadocia'
+              ),
+              ' are also popular tourist attractions within Turkey, but Ozan has never been to them so he can\u2019t recommend them.'
             )
-          )
-        ),
-        _react2.default.createElement('hr', null),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Planning Your Trip'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'We\u2019ve provided a suggested itinerary below to help structure your trip. Overall, traveling to Turkey is easy: Istanbul and Antalya are major tourist destinations already and Ozan will sort out the logistics of your stay in Sinop. After you ',
-          _react2.default.createElement(
-            'a',
-            { href: 'http://jessaandozan.rsvpify.com', target: '_blank' },
-            'sign up'
-          ),
-          ' we will email you to figure out your specific trip plan and guide you through booking transportation and lodging for your trip.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'If you\u2019re a seasoned traveler the only thing you\u2019ll really need to know is that ',
-          _react2.default.createElement(
-            'a',
-            { href: 'https://p.turkishairlines.com/en-us/', target: '_blank' },
-            'Turkish Airlines'
-          ),
-          ' has flights between Istanbul and Sinop daily. It will be difficult to find English speakers in Sinop, so it\u2019s important to let us know when you\u2019ll be arriving in Sinop so that we can arrange a pick up from the airport.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Turkey requires a visa fee to enter, it can be bought at the airport upon arrival or ahead of time ',
-          _react2.default.createElement(
-            'a',
-            { href: 'https://www.evisa.gov.tr/en/', target: '_blank' },
-            'online'
-          ),
-          '.'
-        ),
-        _react2.default.createElement('hr', null),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Suggested Itinerary'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'In order to make the most of your trip, we recommend you take about 12 days: do some touristy stuff in Istanbul, attend the wedding in Sinop, then relax in Antalya. This trip plan would cost about $2,100/person for transportation, lodging, and food.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Your first stop in Turkey will be Istanbul. If you\u2019ve never been to Turkey, you must spend some time exploring Istanbul: it\u2019s a 2,500-year-old city with a population of 14 million.'
-        ),
-        _react2.default.createElement(
-          'ul',
-          null,
-          _react2.default.createElement(
-            'li',
-            null,
-            'Saturday, June 23 \u2013 Fly into Istanbul'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Sunday, June 24 \u2013 Explore Beyoglu'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Monday, June 25 \u2013 Explore Sultanahmet & Grand Bazaar'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Tuesday, June 26 \u2013 Explore Kadikoy'
-          )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Plan to arrive in Sinop on June 27. Sinop has a history as long as Istanbul\u2019s but is a much smaller city with a population of 40 thousand (who are among the ',
-          _react2.default.createElement(
-            'a',
-            { href: 'http://www.bbc.com/travel/story/20170810-the-turkish-city-that-discovered-the-key-to-happiness', target: '_blank' },
-            'happiest in Turkey'
-          ),
-          ').'
-        ),
-        _react2.default.createElement(
-          'ul',
-          null,
-          _react2.default.createElement(
-            'li',
-            null,
-            'Wednesday, June 27 \u2013 Fly to Sinop'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Thursday, June 28 \u2013 Explore Sinop'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Friday, June 29 \u2013 Visit Ozan\u2019s grandparents\u2019 village'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Saturday, June 30 \u2013 Celebrate Ozan and Jessa\u2019s Wedding'
-          )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'After the wedding, we will fly to Antalya, where Ozan grew up. Antalya is a major tourist destination, a city with a population of 1.2 million on the mediterranean: beautiful beaches, lots of resorts, and a tremendous amount of ancient ruins.'
-        ),
-        _react2.default.createElement(
-          'ul',
-          null,
-          _react2.default.createElement(
-            'li',
-            null,
-            'Sunday, July 1 \u2013 Fly to Antalya'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Monday, July 2 \u2013 Explore Antalya'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Tuesday, July 3 \u2013 Enjoy the beach'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Wednesday, July 4 \u2013 Explore Yanartas'
-          ),
-          _react2.default.createElement(
-            'li',
-            null,
-            'Thursday, July 5 \u2013 Fly home'
           )
         )
       );

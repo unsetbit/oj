@@ -4,7 +4,7 @@ import {render} from 'react-dom';
 
 class App extends React.Component {
   render () {
-    return <section>
+    return <div><img width="100%" src="assets/oj.jpg"></img><section className="container"><section>
         <center>
           <h1>Jessa ❤️ Ozan</h1>
           <p>
@@ -17,31 +17,14 @@ class App extends React.Component {
           <h2>Planning Your Trip</h2>
           <p>
             We’ve provided a suggested itinerary below to help structure your trip.
-            Overall, traveling to Turkey is easy: Istanbul and Antalya are major tourist
-            destinations already and Ozan will sort out the logistics of your
-            stay in Sinop. After you <a href="http://jessaandozan.rsvpify.com" target="_blank">sign
-            up</a> we will email you to figure out your specific trip plan
-            and guide you through booking transportation and lodging for your trip.
-          </p>
-          <p>
-            If you’re a seasoned traveler the only thing you’ll really need to
-            know is that <a href="https://p.turkishairlines.com/en-us/" target="_blank">Turkish
-            Airlines</a> has flights between Istanbul and Sinop daily. It will be difficult
-            to find English speakers in Sinop, so it’s important to let us know when
-            you’ll be arriving in Sinop so that we can arrange a pick up from the
-            airport.
-          </p>
-          <p>
-            Turkey requires a visa fee to enter, it can be bought at the airport
-            upon arrival or ahead of time <a href="https://www.evisa.gov.tr/en/" target="_blank">online</a>.
+            Traveling to Turkey is easy: Istanbul (where you’ll enter and exit Turkey) is a major tourist destination and Ozan will sort out all the logistics of your
+            stay in Sinop. After you <a href="http://jessaandozan.rsvpify.com" target="_blank">sign up</a> we will email you to come up with a specific trip plan and guide you through booking transportation and lodging.
           </p>
           <hr></hr>
           <h2>Suggested Itinerary</h2>
           <p>
-            In order to make the most of your trip, we recommend you take about
-            12 days: do some touristy stuff in Istanbul, attend the wedding in
-            Sinop, then relax in Antalya. This trip plan would cost about
-            $2,100/person for transportation, lodging, and food.
+            In order to make the most of your trip, we recommend you plan for at least
+            12 days, starting off with touristy stuff in Istanbul then attending the wedding in Sinop, followed by a choose-your-own-adventure. Expect to spend about $1,300 for a round trip ticket to Turkey from the U.S. and about $20/day for food, and $20/day for lodging (assuming you’re sharing with at least one other person). A 12-night trip to Turkey should cost somewhere around $2,200 per person (padding included).
           </p>
           <p>
             Your first stop in Turkey will be Istanbul. If you’ve never been to
@@ -63,13 +46,13 @@ class App extends React.Component {
             </li>
           </ul>
           <p>
-            Plan to arrive in Sinop on June 27. Sinop has a history as long
+            Plan to arrive in Sinop on June 27. Istanbul to Sinop is about a day by bus and an hour by plane. Depending on the number of people signing up we may rent a bus to simplify logistics of getting people in and out of Sinop. Sinop has a history as long
             as Istanbul’s but is a much smaller city with a population of 40 thousand
             (who are among the <a href="http://www.bbc.com/travel/story/20170810-the-turkish-city-that-discovered-the-key-to-happiness" target="_blank">happiest in Turkey</a>).
           </p>
           <ul>
             <li>
-              Wednesday, June 27 &ndash; Fly to Sinop
+              Wednesday, June 27 &ndash; Bus ride to Sinop
             </li>
             <li>
               Thursday, June 28 &ndash; Explore Sinop
@@ -80,31 +63,17 @@ class App extends React.Component {
             <li>
               Saturday, June 30 &ndash; Celebrate Ozan and Jessa’s Wedding
             </li>
+            <li>
+              Sunday, July 1 &ndash; Bus ride to Istanbul
+            </li>
           </ul>
           <p>
-            After the wedding, we will fly to Antalya, where Ozan
-            grew up. Antalya is a major tourist destination, a city with a
-            population of 1.2 million on the mediterranean: beautiful beaches,
-            lots of resorts, and a tremendous amount of ancient ruins.
+            After the wedding you have many options: Greece is right next door,
+            as is the rest of Europe, Russia, and the Middle East. Within Turkey
+            there are several tourist-friendly cities: <a href="https://www.lonelyplanet.com/turkey/aegean-coast/izmir" target="_blank">Izmir</a>, <a href="https://www.lonelyplanet.com/turkey/aegean-coast/bodrum" target="_blank">Bodrum</a>, and <a href="https://www.lonelyplanet.com/turkey/mediterranean-coast/antalya" target="_blank">Antalya</a>. <a href="https://www.lonelyplanet.com/turkey/aegean-coast/pamukkale" target="_blank">Pamukkale</a> and <a href="https://www.lonelyplanet.com/turkey/cappadocia-kapadokya" target="_blank">Cappadocia</a> are also popular tourist attractions
+            within Turkey, but Ozan has never been to them so he can’t recommend them.
           </p>
-          <ul>
-            <li>
-              Sunday, July 1 &ndash; Fly to Antalya
-            </li>
-            <li>
-              Monday, July 2 &ndash; Explore Antalya
-            </li>
-            <li>
-              Tuesday, July 3 &ndash; Enjoy the beach
-            </li>
-            <li>
-              Wednesday, July 4 &ndash; Explore Yanartas
-            </li>
-            <li>
-              Thursday, July 5 &ndash; Fly home
-            </li>
-          </ul>
-      </section>
+      </section></section></div>
     ;
   }
 }
