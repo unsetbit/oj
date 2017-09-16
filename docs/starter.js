@@ -10075,7 +10075,7 @@ var App = function (_React$Component) {
             _react2.default.createElement(
               'p',
               null,
-              'In order to make the most of your trip, we recommend you plan for at least 12 days, starting off with touristy stuff in Istanbul then attending the wedding in Sinop, followed by a choose-your-own-adventure. Expect to spend about $1,300 for a round trip ticket to Turkey from the U.S. and about $20/day for food, and $20/day for lodging (assuming you\u2019re sharing with at least one other person). A 12-night trip to Turkey should cost somewhere around $2,200 per person (padding included).'
+              'In order to make the most of your trip, we recommend you plan for around 12 days, starting off with touristy stuff in Istanbul then attending the wedding in Sinop, followed by a choose-your-own-adventure. Expect to spend about $1,300 for a round trip ticket to Turkey from the U.S. and about $20/day for food, and $20/day for lodging (assuming you\u2019re sharing with at least one other person). A 12-night trip to Turkey should cost somewhere around $2,200 per person (padding included).'
             ),
             _react2.default.createElement(
               'p',
